@@ -19,9 +19,14 @@ import datetime
 import os
 import json
 
-version = "1.0"
+version = "1.1"
 
-TOKEN = 'NTEzNzc5MzA4NjExODk1Mjk5.DtM-sQ.35ZBkAiLURVpD0wXsyUR3jCzo8I' #Bot's token
+config_dict = {}
+
+with open('config.json') as file:
+    config_dict=json.load(file)
+
+TOKEN = config_dict["bot_key"] #Bot's token
 
 client = commands.Bot(command_prefix = '!') #what prefix for the bot
 
