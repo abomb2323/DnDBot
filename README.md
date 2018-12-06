@@ -4,7 +4,7 @@
 
 Author: abomb2323
 
-Version: 1.0
+Version: 1.1
 
 DnDBot is a discord bot for channels which run multiple DnD games, allowing for ease of use in organizing, reminding, and informing players.
 
@@ -54,6 +54,11 @@ To run the bot, use the following command:
 
 ### Patch Notes
 ```
+Patch Notes v1.1
+* Added config.json
+* Moved token out of python file
+* Resolved minor dialogue issues.
+
 Patch Notes v1.0
 * First release
 * Added Blacklist and Whitelist feature to allow commands to not be acknowledged in certain channels.
