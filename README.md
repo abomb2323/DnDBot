@@ -37,7 +37,7 @@ After it finishes, use `cd DnDBot` to navigate into the project folder.
 
 **Step Three**
 
-*Upcoming version* Add your bot's key into "config.json" where it says <INSERT_KEY>, making sure to replace the <> symbols.
+Add your bot's token into "config.json" where it says <INSERT_TOKEN>, making sure to replace the <> symbols.
 
 
 **Step Four**
